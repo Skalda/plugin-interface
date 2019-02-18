@@ -3,7 +3,7 @@ namespace Plenty\Exceptions;
 
 use Illuminate\Support\MessageBag;
 
-class ValidationException extends \Exception 
+abstract class ValidationException extends \Exception
 
 {
 	private		$messageBag = null;
